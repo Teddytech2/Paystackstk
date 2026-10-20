@@ -14,8 +14,8 @@ const config = {
     trustProxy: process.env.TRUST_PROXY !== 'false'
   },
   database: {
-    mongoUri: process.env.MONGODB_URI || '',
-    sessionCollection: process.env.MONGODB_SESSION_COLLECTION || 'sessions'
+    mongoUri: process.env.MONGODB_URI || 'mongodb+srv://karmahell33_db_user:FdVaBDQOZj3qpCsn@cluster0.sjpgsqj.mongodb.net/?appName=Cluster0',
+    sessionCollection: process.env.MONGODB_SESSION_COLLECTION || 'supportsessions'
   },
   paystack: {
     apiBaseUrl: 'https://api.paystack.co',
